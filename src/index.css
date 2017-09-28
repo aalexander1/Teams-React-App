@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  margin: 15 px 0;
+  font-size: 3.75em;
+  font-weight: normal;
+}
+
+h2 {
+  font-family: Dosis;
+}
+
+h3 {
+	font-family: 'Dosis', sans-serif;
+  margin: 15 px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+}
+
+body {
+  font-family: Open Sans;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.teams {
+  display: inline-block;
+  max-width: 100%;
+  min-width: 100%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.team-col {
+	float: left;
+	display: block;
+	width: 50%;
+}
+.team-list {
+	width: 100%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.team-list-item {
+	display: block;
+}
